@@ -2,9 +2,10 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
+import resume from '../../../assets/CV_Chenfei_Yu.pdf'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, social } = about
 
   return (
     <div className='about center'>
@@ -14,18 +15,17 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'> {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} target="_blank" rel="noreferrer">
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
           </a>
         )}
-
         {social && (
           <>
             {social.github && (

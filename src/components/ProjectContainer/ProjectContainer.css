@@ -4,6 +4,9 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
 }
 
 .project:hover {
@@ -30,4 +33,6 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: auto;
 }

@@ -1,19 +1,18 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
+  // TODO
   homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: '',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Chenfei Yu',
+  role: 'Student 🧑🏻‍🎓, web developer 🧑🏻‍💻 ',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    '',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/christol-yu/',
+    github: 'https://github.com/christorange',
   },
 }
 
@@ -21,28 +20,26 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'OpenRead',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Academic productivity tool for paper searching, reading and managing. Converts pdf paper into a  better layout, with AI enhancement for paper explanation, summary and translation',
+    stack: [],
+    livePreview: 'https://openread.academy',
   },
   {
-    name: 'Project 2',
+    name: 'Rxcellent',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Online pharmacy web app, implements prescription generating and retrieving, separated purchasing paths for prescribed and OTC medications.',
+    stack: ['TypeScript', 'React', 'Node.js', 'Express', 'MongoDB'],
+    sourceCode: 'https://github.com/christorange/rxcellent',
+
   },
   {
-    name: 'Project 3',
+    name: 'QC-CNN',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Quantum-classical hybrid convolutional neural network for classical image classification.',
+    stack: ['Python', 'PyTorch', 'PennyLane'],
+    sourceCode: 'https://github.com/christorange/QC-CNN'
   },
 ]
 
@@ -54,18 +51,19 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Node.js',
+  'Express',
+  'Sass',
+  'TailwindCSS',
+  'Figma',
+  'Java',
+  'Python',
+  'PyTorch'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'christol.yu@outlook.com',
 }
 
 export { header, about, projects, skills, contact }

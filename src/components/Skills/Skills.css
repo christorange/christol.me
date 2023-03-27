@@ -9,4 +9,11 @@
 
 .skills__list-item {
   margin: 0.5em;
+  background-color: var(--clr-bg-alt);
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 0;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: block;
 }
