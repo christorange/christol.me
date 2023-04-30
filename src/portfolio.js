@@ -34,13 +34,19 @@ const projects = [
     sourceCode: 'https://github.com/christorange/rxcellent',
 
   },
+  // {
+  //   name: 'QC-CNN',
+  //   description:
+  //     'Quantum-classical hybrid convolutional neural network for classical image classification.',
+  //   stack: ['Python', 'PyTorch', 'PennyLane'],
+  //   sourceCode: 'https://github.com/christorange/QC-CNN'
+  // },
   {
-    name: 'QC-CNN',
-    description:
-      'Quantum-classical hybrid convolutional neural network for classical image classification.',
-    stack: ['Python', 'PyTorch', 'PennyLane'],
-    sourceCode: 'https://github.com/christorange/QC-CNN'
-  },
+    name: 'VerticalFox',
+    description: 'Firefox theme with Edge like auto-hide vertical tab bar and minimalism design. Includes light and dark theme, supports MacOS and Windows. ',
+    stack: [],
+    sourceCode: 'https://github.com/christorange/VerticalFox'
+  }
 ]
 
 const skills = [
