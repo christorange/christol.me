@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useEffect } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -12,8 +12,12 @@ import './App.css'
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
+  useEffect(() => {
+    document.documentElement.className = themeName
+  },[themeName])
+
   return (
-    <div id='top' className={`${themeName} app`}>
+    <div id='top' className='app'>
       <Header />
 
       <main>
